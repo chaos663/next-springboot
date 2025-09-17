@@ -1,0 +1,48 @@
+#Next.JS
+# dependencies
+frontend/app01/node_modules
+frontend/app01/.pnp
+frontend/app01/.pnp.*
+frontend/app01/.yarn/*
+!frontend/app01/.yarn/patches
+!frontend/app01/.yarn/plugins
+!frontend/app01/.yarn/releases
+!frontend/app01/.yarn/versions
+
+# testing
+frontend/app01/coverage
+
+# next.js
+frontend/app01/.next/
+frontend/app01/out/
+
+# production
+frontend/app01/build
+
+# misc
+frontend/app01/.DS_Store
+frontend/app01/*.pem
+
+# debug
+frontend/app01/npm-debug.log*
+frontend/app01/yarn-debug.log*
+frontend/app01/yarn-error.log*
+frontend/app01/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+frontend/app01/.env*
+
+# typescript
+frontend/app01/*.tsbuildinfo
+frontend/app01/next-env.d.ts
+
+frontend/app01/.gitignore
+
+# Java backend
+backend/venv/
+backend/target/
+backend/server_todo-main/.gradle
+backend/server_todo-main/build
+
+backend/server_todo-main/.DS_Store
+backend/server_todo-main/gitignore
