@@ -31,19 +31,19 @@ spring:
       max-file-size: 10MB
       max-request-size: 40MB
       enabled: true
-      location: /Users/zerock/nextex/images
+      location: /Users/honey/nextex/images
   web:
     resources:
-      static-locations: file:///Users/zerock/nextex/images
+      static-locations: file:///Users/honey/nextex/images
 #로그 설정   
 logging:
   level:
     org.zerock: INFO
 
-
+# 본인의 환경에 맞게 경로 설정해줘야함
 org:
   zerock:
     upload:
-      folder: /Users/zerock/nextex/images
+      folder: /Users/honey/nextex/images
 
 
